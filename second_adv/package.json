@@ -1,0 +1,34 @@
+{
+  "name": "Broker-MQ",
+  "version": "0.1.0",
+  "description": "Messages generator for RabbitMQ",
+  "author": "Kwebbl",
+  "contributors": [
+      {
+        "name": "Studenyak Anastasia <a.studenyak@kwebbl.com>"
+      }
+  ],
+  "main": "index.js",
+  "repository": {
+      "type": "git",
+      "url": "git@bitbucket.org:kwebbl/ratingengine.git"
+  },
+  "keywords": [
+      "rabbitmq",
+      "amqp"
+  ],
+  "dependencies": {
+      "amqp": "^0.2.0",
+      "kwbl-gen": "^0.1.0",
+      "util": "^0.10.3",
+      "commander": "^2.5.0",
+      "nano": "^5.12.0",
+      "bluebird": "^2.6.4"
+  },
+  "devDependencies": {
+      "jasmine-node": "^1.14.5"
+  },
+  "bugs": {
+      "email": "<a.studenyak@kwebbl.com>"
+  }
+}

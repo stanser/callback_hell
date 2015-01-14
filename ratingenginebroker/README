@@ -1,0 +1,22 @@
+All files should be started in different terminals.
+
+1. Start broker_index.js to send messages. Parameters are following: 
+
+    1) {integer} countTotal - total amount of calls have to be emulated 
+        One call includes two messages: 1 start and 1 stop
+    2) {integer} countAtOnce - how many calls have to be emulated during 1 iteration
+    3) {integer} countOfStartLess - how many calls should be without start
+    4) {integer} countOfNegativeDuration - how many calls should have negative duration
+    5) {integer} interval - in ms, interval for sending
+
+    Every parameter accepts default value if isn't specified.
+    
+2. Start cons_start.js to create Consumer for listening call.start messages (inserting in DB)
+3. Start cons_stop.js to create Consumer for listening and processing call.stop messages 
+(selecting matching start msg, merging, updating doc in Couch);
+
+4. Than restart broker_index.js so many times as you want.
+
+
+
+Happy spending time =)))
