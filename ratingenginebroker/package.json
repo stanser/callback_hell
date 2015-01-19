@@ -1,0 +1,32 @@
+{
+  "name": "RatingEngineBroker",
+  "version": "0.1.0",
+  "description": "Messages' generator for RabbitMQ",
+  "author": "Kwebbl",
+  "contributors": [
+      {
+        "name": "Studenyak Anastasia <a.studenyak@kwebbl.com>"
+      }
+  ],
+  "main": "index.js",
+  "repository": {
+      "type": "git",
+      "url": "git@bitbucket.org:kwebbl/ratingenginebroker.git"
+  },
+  "keywords": [
+      "rabbitmq",
+      "amqp"
+  ],
+  "dependencies": {
+      "amqp": "^0.2.0",
+      "util": "^0.10.3",
+      "commander": "^2.5.0",
+      "kwbl-gen": "git+ssh://git@bitbucket.org:kwebbl/kwbl-gen.git#master"
+  },
+  "devDependencies": {
+      "jasmine-node": "^1.14.5"
+  },
+  "bugs": {
+      "email": "<a.studenyak@kwebbl.com>"
+  }
+}

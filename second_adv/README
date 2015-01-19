@@ -1,0 +1,19 @@
+Start index.js for listening call.start and call.stop messages.
+
+call.start messages:
+1. are being validated;
+2. are being inserted to Couch if no errors have occured or being moved to 'retry' queue otherwise;
+3. are being acknowledged after processing complete.
+
+call.stop messages:
+1. are being validated;
+2. are being used to search matching call.start message in Couch
+3. are being merged with found call.start message doc if no errors have occured or being moved to 'retry' queue otherwise;
+4. are being acknowledged after processing complete.
+
+
+Have fun))
+
+//TODO
+Listening to 'retry' and 'reject' queues are not implemented yet. 
+
