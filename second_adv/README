@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Start index.js for listening call.start and call.stop messages.
 
 call.start messages:
@@ -17,3 +18,10 @@ Have fun))
 //TODO
 Listening to 'retry' and 'reject' queues are not implemented yet. 
 
+=======
+All files should be started in different terminals.
+
+1. Start cons_start.js to create Consumer for listening call.start messages (inserting in DB)
+2. Start cons_stop.js to create Consumer for listening and processing call.stop messages 
+(selecting matching start msg, merging, updating doc in Couch);
+>>>>>>> bf3b1ae59856a780287418a2e9467cfaf0880cc0
