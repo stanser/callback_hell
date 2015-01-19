@@ -1,13 +1,7 @@
 {
-<<<<<<< HEAD
   "name": "RatingEngine",
   "version": "0.1.0",
   "description": "Messages' listener and handler for RabbitMQ",
-=======
-  "name": "Broker-MQ",
-  "version": "0.1.0",
-  "description": "Messages generator for RabbitMQ",
->>>>>>> bf3b1ae59856a780287418a2e9467cfaf0880cc0
   "author": "Kwebbl",
   "contributors": [
       {
